@@ -7,7 +7,7 @@ const PORT = 3001;
 const app = express();
 
 var corsOptions = {
-  origin: "https://auth-app-next.netlify.app",
+  origin: "*",
 };
 
 app.use(cors(corsOptions));
